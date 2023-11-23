@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun args="nmap -T4 -F 10.203.160.55-254" profile_name="Quick scan" scanner="nmap" start="1694141881" startstr="Thu Sep  7 20:58:01 2023" version="7.94" xmloutputversion="1.04"><scaninfo type="syn" protocol="tcp" numservices="100" services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.94 ( https://nmap.org ) at 2023-09-07 20:58 Central America Standard Time
+Nmap scan report for 10.203.160.186
+Host is up (0.00098s latency).
+Not shown: 95 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1433/tcp open  ms-sql-s
+8080/tcp open  http-proxy
+
+Nmap done: 200 IP addresses (1 host up) scanned in 9.27 seconds
+</output><host comment=""><status state="up"></status><address addr="10.203.160.186" vendor="" addrtype="ipv4"></address><hostnames></hostnames><ports><extraports count="95" state="closed"></extraports><port portid="135" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="msrpc"></service></port><port portid="139" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="netbios-ssn"></service></port><port portid="445" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="microsoft-ds"></service></port><port portid="1433" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="ms-sql-s"></service></port><port portid="8080" protocol="tcp"><state state="open" reason="syn-ack" reason_ttl="128"></state><service conf="3" method="table" name="http-proxy"></service></port></ports><os></os><uptime seconds="" lastboot=""></uptime><tcpsequence index="" difficulty="" values=""></tcpsequence><ipidsequence class="" values=""></ipidsequence><tcptssequence class="" values=""></tcptssequence></host><runstats><finished time="1694141891" timestr="Thu Sep  7 20:58:11 2023"></finished><hosts up="1" down="199" total="200"></hosts></runstats></nmaprun>

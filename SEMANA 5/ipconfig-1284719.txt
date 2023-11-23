@@ -1,0 +1,114 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : ANTOS
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : url.edu.gt
+
+Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Hyper-V Virtual Ethernet Adapter
+   Physical Address. . . . . . . . . : 00-15-5D-DC-6F-3E
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::79fa:4749:8ba0:be23%39(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 172.17.32.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 654316893
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-1C-55-18-04-BF-1B-1A-D7-7C
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Local Area Connection* 9:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 3E-55-76-03-8B-8B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : 3E-55-76-03-9B-9B
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Physical Address. . . . . . . . . : 04-BF-1B-1A-D7-7C
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::5ba4:cde5:197e:8074%21(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.2.105(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.2.3
+   DHCPv6 IAID . . . . . . . . . . . : 100974363
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-1C-55-18-04-BF-1B-1A-D7-7C
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet1:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet1
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-01
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::59c:4ff8:ee46:50ce%11(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.102.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, September 7, 2023 5:44:25 PM
+   Lease Expires . . . . . . . . . . : Thursday, September 7, 2023 8:45:45 PM
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.102.254
+   DHCPv6 IAID . . . . . . . . . . . : 721440854
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-1C-55-18-04-BF-1B-1A-D7-7C
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VMware Network Adapter VMnet8:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VMware Virtual Ethernet Adapter for VMnet8
+   Physical Address. . . . . . . . . : 00-50-56-C0-00-08
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::7941:e508:12a6:70a4%4(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.131.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, September 7, 2023 5:44:28 PM
+   Lease Expires . . . . . . . . . . : Thursday, September 7, 2023 8:45:45 PM
+   Default Gateway . . . . . . . . . : 
+   DHCP Server . . . . . . . . . . . : 192.168.131.254
+   DHCPv6 IAID . . . . . . . . . . . : 738218070
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-1C-55-18-04-BF-1B-1A-D7-7C
+   Primary WINS Server . . . . . . . : 192.168.131.2
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : url.edu.gt
+   Description . . . . . . . . . . . : MediaTek Wi-Fi 6 MT7921 Wireless LAN Card
+   Physical Address. . . . . . . . . : 3C-55-76-03-AB-AB
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::f775:4135:4cab:6dcb%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.203.53.179(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.248.0
+   Lease Obtained. . . . . . . . . . : Thursday, September 7, 2023 5:44:36 PM
+   Lease Expires . . . . . . . . . . : Thursday, September 7, 2023 8:34:18 PM
+   Default Gateway . . . . . . . . . : 10.203.55.254
+   DHCP Server . . . . . . . . . . . : 10.200.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 121394550
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2B-1C-55-18-04-BF-1B-1A-D7-7C
+   DNS Servers . . . . . . . . . . . : 172.19.177.101
+                                       172.19.177.102
+   NetBIOS over Tcpip. . . . . . . . : Enabled

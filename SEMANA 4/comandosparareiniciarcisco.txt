@@ -1,0 +1,5 @@
+flash init 
+dir
+dir flash
+
+delete flash:running-config.txt

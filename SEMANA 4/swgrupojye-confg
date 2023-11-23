@@ -1,0 +1,141 @@
+
+!
+version 12.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname SwGrupoJyE
+!
+boot-start-marker
+boot-end-marker
+!
+enable password Redes1JyE
+!
+no aaa new-model
+switch 1 provision ws-c3750v2-24ps
+system mtu routing 1500
+ip subnet-zero
+!
+!
+!
+!
+crypto pki trustpoint TP-self-signed-2534255616
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-2534255616
+ revocation-check none
+ rsakeypair TP-self-signed-2534255616
+!
+!
+crypto pki certificate chain TP-self-signed-2534255616
+ certificate self-signed 01
+  30820243 308201AC A0030201 02020101 300D0609 2A864886 F70D0101 04050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 32353334 32353536 3136301E 170D3933 30333031 30303031 
+  30395A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D32 35333432 
+  35353631 3630819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100B87F 86CE8C4E 4CF134B1 FE41250F F6731A32 D85F6248 8DDED02F EBAFBA13 
+  C9D0080C 115F8448 0E00757D 9091817F D02184D0 A2608EBD 9A681070 CCB79836 
+  FBDDE780 D0900216 6774A9EE D2FC32C7 08F085BB 9C583B6D 2C318722 EB9644D6 
+  9B176081 77100193 A27BF685 AA757629 A15DFB68 122444E7 7E20FCF3 AF518518 
+  DC0D0203 010001A3 6B306930 0F060355 1D130101 FF040530 030101FF 30160603 
+  551D1104 0F300D82 0B537747 7275706F 4A79452E 301F0603 551D2304 18301680 
+  14C55BE9 A01A5E5F 6AC45CD6 A19F7EEB FBA496B4 81301D06 03551D0E 04160414 
+  C55BE9A0 1A5E5F6A C45CD6A1 9F7EEBFB A496B481 300D0609 2A864886 F70D0101 
+  04050003 81810090 014F4DF1 1D42FB41 A7DB345D 447288AE 8CE71651 1FF71EEB 
+  235A73F9 70AF4F77 8A56706C 8EC8CAAF 10635F13 A3890630 049A59A9 C48AB482 
+  6B117955 7E3A0A2B 9D437B5F 7A02179A CCF81FA8 D5704264 6CE7DB16 7EA77DBB 
+  EAC133AD B9CF4888 44CBDD43 1FDFCDD6 48BC273D D7FAADFC 582AAF9B 80CDAEF2 
+  D7638950 6FEB30
+  quit
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+spanning-tree etherchannel guard misconfig
+spanning-tree extend system-id
+!
+vlan internal allocation policy ascending
+!
+!
+!
+!
+interface FastEthernet1/0/1
+!
+interface FastEthernet1/0/2
+!
+interface FastEthernet1/0/3
+!
+interface FastEthernet1/0/4
+!
+interface FastEthernet1/0/5
+!
+interface FastEthernet1/0/6
+!
+interface FastEthernet1/0/7
+!
+interface FastEthernet1/0/8
+!
+interface FastEthernet1/0/9
+!
+interface FastEthernet1/0/10
+!
+interface FastEthernet1/0/11
+!
+interface FastEthernet1/0/12
+!
+interface FastEthernet1/0/13
+!
+interface FastEthernet1/0/14
+!
+interface FastEthernet1/0/15
+!
+interface FastEthernet1/0/16
+!
+interface FastEthernet1/0/17
+!
+interface FastEthernet1/0/18
+!
+interface FastEthernet1/0/19
+!
+interface FastEthernet1/0/20
+!
+interface FastEthernet1/0/21
+!
+interface FastEthernet1/0/22
+!
+interface FastEthernet1/0/23
+!
+interface FastEthernet1/0/24
+!
+interface GigabitEthernet1/0/1
+!
+interface GigabitEthernet1/0/2
+!
+interface Vlan1
+ ip address 192.168.1.1 255.255.255.0
+!
+ip classless
+ip http server
+ip http secure-server
+!
+!
+!
+!
+control-plane
+!
+!
+line con 0
+ password Redes1JyE
+ login
+line vty 0 4
+ password Redes1JyE
+ login
+line vty 5 15
+ login
+!
+end
